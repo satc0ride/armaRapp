@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "test": "nodemon app"
+    "test": "nodemon app",
+    "close": "node batman"
   },
   "description": "ArmaRapp",
   "author": {
