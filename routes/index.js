@@ -7,6 +7,9 @@ var executeQuery = require('../lib/db');
 router.get('/', function (req, res) {
     var query =  `select * from tabla`
     console.log(req.body)
+    
+
+
 //     `INSERT INTO [etarmadi_Armadillo].[tabla]
 //     ([first_name]
 //     ,[last_name])
