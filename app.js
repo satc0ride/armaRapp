@@ -57,9 +57,9 @@ app.use(function (err, req, res, next) {
     });
 });
 
-app.use("/app", express.static('public'))
+app.use("/app", express.static('public'));
 
-app.set('port', process.env.PORT || 80)
+app.set('port', process.env.PORT || 80);
 
 var server = app.listen(app.get('port'), function () {
     debug('Armadillo Server listen in: ' + server.address().port);
